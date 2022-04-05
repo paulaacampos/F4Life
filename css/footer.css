@@ -1,0 +1,54 @@
+footer {
+  height: 110px;
+  display: flex;
+  background-color: #0b1c32;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 40px 40px 0px 0px;
+  flex-direction: row;
+}
+
+.container {
+  padding-right: 6%;
+  padding-left: 6%;
+}
+
+.rodape__logo {
+  width: 220px;
+  height: 75px;
+}
+
+.rodape__social {
+  display: flex;
+}
+
+.rodape__midia {
+  display: block;
+  width: 42px;
+  height: 42px;
+  margin: 2rem 1rem;
+}
+
+ul.rodape__navegacao {
+  display: flex;
+  width: 60vw;
+  justify-content: flex-end;
+  margin: 10px;
+  flex-direction: row;
+  align-content: stretch;
+}
+
+.rodape__link {
+  display: flex;
+  margin: 5px 25px;
+  text-align: center;
+  width: 60vw;
+  justify-content: flex-end;
+  align-content: space-around;
+}
+
+li {
+  display: block;
+}

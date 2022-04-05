@@ -1,0 +1,30 @@
+header {
+  height: 110px;
+  display: flex;
+  background-color: #0b1c32;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 0px 0px 40px 40px;
+}
+
+nav.cabecalho__logo {
+  width: 25vh;
+}
+
+ul.cabecalho__link {
+  display: flex;
+  width: 60vw;
+  justify-content: flex-end;
+  margin: 10px;
+  flex-direction: row;
+  align-content: stretch;
+}
+
+li.cabecalho__link {
+  display: block;
+  margin: 5px 25px;
+  text-align: center;
+}
